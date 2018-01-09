@@ -1,7 +1,7 @@
 $lt-gray: #ddd;
-$background-dark: #512DA8;
-$background-light: #9575CD;
-$background-pale: #D1C4E9;
+$background-dark: rgb(50, 50, 51);
+$background-light: rgb(98, 98, 100);
+$background-pale: rgb(238, 235, 235);
 
 // Height variables
 $carousel-item-height: 300px;
@@ -39,9 +39,13 @@ address{
 }
 
 body{
-    padding:50px 0px 0px 0px;
+    padding:50px 0px 0px 0px !important;
     z-index:0;
 }
+
+.modal-open {
+    overflow: auto;
+} 
 
 .navbar-inverse {
      background-color: $background-dark;

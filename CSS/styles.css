@@ -9,14 +9,14 @@
   min-height: 400px; }
 
 .footer {
-  background-color: #D1C4E9;
+  background-color: #eeebeb;
   margin: 0px auto;
   padding: 20px 0px; }
 
 .jumbotron {
   margin: 0px auto;
   padding: 70px 30px;
-  background: #9575CD;
+  background: #626264;
   color: floralwhite; }
 
 address {
@@ -25,11 +25,14 @@ address {
   color: #0f0f0f; }
 
 body {
-  padding: 50px 0px 0px 0px;
+  padding: 50px 0px 0px 0px !important;
   z-index: 0; }
 
+.modal-open {
+  overflow: auto; }
+
 .navbar-inverse {
-  background-color: #512DA8; }
+  background-color: #323233; }
 
 .tab-content {
   border-left: 1px solid #ddd;
@@ -38,7 +41,7 @@ body {
   padding: 10px; }
 
 .carousel {
-  background: #512DA8; }
+  background: #323233; }
   .carousel .carousel-item {
     height: 300px; }
     .carousel .carousel-item img {
