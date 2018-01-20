@@ -18,4 +18,10 @@ $(document).ready(function(){
         }
         
     });
+    $("#idResTable").click(function(){
+        $("#reservationModal").modal('toggle');
+    });
+    $("#idLogin").click(function(){
+        $("#loginModal").modal('toggle');
+    });
 });

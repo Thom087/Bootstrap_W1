@@ -47,6 +47,23 @@ body{
     overflow: auto;
 } 
 
+.modal-header {
+    background-color: $background-dark;
+    color:floralwhite;
+
+    .close{
+        color: floralwhite;
+    }
+}
+
+.modal-body {
+    background: $background-pale;
+}
+
+.modal-footer {
+    background: $background-light;
+}
+
 .navbar-inverse {
      background-color: $background-dark;
 }

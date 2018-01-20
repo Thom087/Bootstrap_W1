@@ -31,6 +31,18 @@ body {
 .modal-open {
   overflow: auto; }
 
+.modal-header {
+  background-color: #323233;
+  color: floralwhite; }
+  .modal-header .close {
+    color: floralwhite; }
+
+.modal-body {
+  background: #eeebeb; }
+
+.modal-footer {
+  background: #626264; }
+
 .navbar-inverse {
   background-color: #323233; }
 
